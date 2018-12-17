@@ -1,0 +1,422 @@
+/*头部*/
+.header{
+	clear: both;
+	height: 110px;
+	background: url("../img/header1.png");
+}
+
+.header .logo_img a{
+	width: 450px;
+	height: 72px;
+	background: url("../img/logo copy.png") no-repeat 16px 22px;
+}
+.header .logo_img h2{
+	padding-top: 15px;
+	padding-left: 70px;
+	font-weight: 500;
+	font-size: 23px;
+	line-height: 36px;
+	color: #000;
+	
+}
+.header .logo_img p{
+	padding-left: 70px;
+	color: #7d7c7c;
+	font-size: 8px;
+}
+
+/*导航部分*/
+.nav{
+	clear: both;
+	width: 100%;
+	height: 38px;
+	background-image: url("../img/nav6.png");
+	/*background: linear-gradient(#72b5d4 50%,#005a8b)  失败*/ 
+}
+.nav_ul{
+	margin: 0 auto;
+	width: 980px;
+	height: 38px;
+}
+.nav_ul li{
+	float: left;
+}
+.nav_ul li a{
+	text-align: center;
+	width: 100px;	
+	height: 38px;
+	line-height: 38px;
+	font-size: 14px;
+	color: #fff;
+	margin-left: 8px;
+}
+.nav_ul li a:hover{
+	/*border: 1px solid #bf2642;*/
+	background: url(../img/active.png) ;
+
+}
+
+/*轮播图*/
+.banner{
+	clear: both;
+	width: 100%;
+	height: 285px;
+	background: url("../img/br1.png") repeat-x;
+}
+.banner .container{
+	display: flex;
+}
+.banner .bannerImg{	
+	display: flex;
+	align-items: center; /*垂直居中*/
+	justify-content: center; /*水平居中*/
+    margin: 10px;
+	width: 730px;
+	height: 265px;
+	background-color: #fff;
+	border-radius: 2px; /*圆角*/
+}
+.banner .bannerText{
+	display: flex;
+	align-items: center; /*垂直居中*/
+	justify-content: center; /*水平居中*/
+	background: #fff;
+	width: 220px;
+	height: 265px;
+	margin-top: 10px;
+	border-radius: 2px; /*圆角*/
+}
+.banner .bannerText .title{
+	width: 95%;
+	height: 27px;
+	margin: 5px;
+	border-radius: 2px;
+	background: url("../img/icon copy 18.png") no-repeat #303338 8px 10px ;
+}
+
+.banner .bannerUl {
+	width: 100%;
+}
+.banner .bannerText .title h3{
+	float: left;
+	color: #fff;
+	line-height: 27px;
+	padding-left: 24px;
+	font-size: 14px;
+}
+.banner .bannerText .title a{
+	float: right;
+	color: #ccc;
+	line-height: 27px;
+	padding-right: 13px;
+	font-size: 10px;
+}
+.banner .bannerText .menu{
+	display: flex;
+    /*align-items: center;*/
+    width: 100%;
+	height: 45px;
+	border-bottom: 1px dashed #CCCCCC;
+}
+
+.banner .bannerText .menu:last-child{
+	border-bottom: none;
+}
+
+.banner .bannerText .menu span{
+	font-size: 12px;
+    padding-right: 5%;
+	width: 100%;
+	padding-left: 5%;
+	color: #34373c;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.banner .bannerText .menu a{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.banner .bannerText .menu img{
+	width: 42px;
+	height: 33px;
+    padding-left: 4%;
+}
+.banner .bannerText .menu .icon{
+	float: right;
+	width: 8px;
+	height: 30px;	
+	background: url("../img/leftIcon.fw.png") no-repeat -3px 8px;
+	
+}
+/*中间内容*/
+.main .message{
+	height: 35px;
+	width: 960px;
+	background: url("../img/messageBj.png") ;
+	border-radius: 2px;
+	line-height: 35px;
+	font-size: 14px;
+	color: #5d5d5d;
+}
+.main .message .text1{
+	background: url("../img/message01.png") no-repeat 14px 7px;
+	padding-right: 46px;
+}
+.main .message .text1 img{
+	display: inline-block;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+.main .message .text3{
+	width: 256px;
+	margin-right: 20px;
+	overflow: hidden;
+	text-overflow: clip;
+	white-space: nowrap;
+}
+/*内容*/
+/*关于我们*/
+.main .container .content{
+	display: flex;
+}
+.main .container .content .box1{
+	width: 277px;
+	height: 266px;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color: #FFFFFF;
+	border-radius: 2px;
+}
+
+.main .container .content .box1 h3{
+	float: left;
+	width: 244px;
+	height: 27px;
+	color: #FFFFFF;
+	line-height: 27px;
+	padding-left: 24px;
+	font-size: 14px;
+	margin-left: 5px;
+	margin-top: 5px;
+	border-radius: 2px;
+	background: url("../img/icon copy 18.png") no-repeat #303338 8px 10px ;
+}
+.main .container .content .box1 a{
+	float: right;
+	color: #ccc;
+	line-height: 27px;
+	padding-right: 13px;
+	font-size: 10px;
+}
+.main .container .content .box1 img{
+	padding-left: 7px;
+	padding-top: 7px;
+}
+.main .container .content .box1 p{
+	font-size: 12px;
+	line-height: 16px;
+	height: 63px;
+	width: 248px;
+	margin: 12px auto;
+}
+
+.main .container .content .box2{
+	width: 220px;
+	height: 266px;
+	margin-left: 8px;	
+	margin-top: 10px;
+	background-color: #FFFFFF;
+	border-radius: 2px;
+}
+.main .container .content .box2 h3{
+	float: left;
+	height: 27px;
+	font-weight: bold;
+	line-height: 27px;
+	padding-left: 24px;
+	font-size: 14px;
+	margin-left: 5px;
+	margin-top: 5px;
+	border-radius: 2px;
+	background: url("../img/icon copy 18.png") no-repeat 8px 10px ;
+}
+.main .container .content .box2 img{
+	padding-left: 7px;
+	padding-top: 7px;
+}
+
+.main .container .content .box2 p{
+	font-size: 12px;
+	line-height: 16px;
+	height: 57px;
+	width: 204px;
+	margin: 12px auto 0;
+}
+.main .container .content .box2 a{
+	font-size: 10px;
+	color: #ccc;
+	display: inline-block;
+	margin-left: 177px;
+}
+/*最新动态*/
+.main .container .content .news{
+	display: flex;
+	width: 74.9%;
+	height: 225px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background: #fff;
+	border-radius: 2px;
+}
+
+.main .container .content .news ul{
+	padding: 0.67%;
+	width: 99%;
+}
+.main .container .content .news .title{
+	width: 100%;
+	height: 27px;
+    border-radius: 2px;
+	background: url("../img/icon copy 18.png") no-repeat #303338 8px 10px ;
+}
+.main .container .content .news .title h3{
+	float: left;
+	width: 97%;
+	color: #fff;
+	line-height: 27px;
+	padding-left: 24px;
+	font-size: 14px;
+}
+.main .container .content .news .title a{
+	float: right;
+	color: #ccc;
+	line-height: 27px;
+	padding-right: 13px;
+	font-size: 10px;
+}
+
+.main .container .content .news .list{
+	height: 31px;
+	line-height: 31px;
+	border-bottom: 1px dashed #ccc;
+	background: url("../img/21.png") no-repeat 10px 12px;
+}
+.main .container .content .news .list:last-child{
+	border-bottom: none;
+}
+.main .container .content .news .list a{
+	font-size: 14px;
+    padding-left: 23px;
+}
+.main .container .content .news .list a span{
+	position: relative
+}
+.hot{
+	position: absolute;
+	top: -3px;
+	right: -24px;
+	width: 21px;
+	height: 11px;
+	font-size: 11px;
+	line-height: 11px;
+	border-radius: 2px;
+	background: red;
+}
+.time{
+	float: right;
+	padding-right: 10px;
+}
+/*联系方式*/
+.main .container .content .relations{
+	display: flex;
+	width: 22.5%;
+	height: 225px;
+	margin-top: 10px;
+	margin-left: 8px;
+	background: #fff;
+	border-radius: 2px;
+}
+
+.main .container .content .relations ul{
+	width: 100%;
+}
+.main .container .content .relations .title{
+	width: 95%;
+	height: 27px;
+	margin: 5px 5px 7px;
+	background: url("../img/icon copy 18.png") no-repeat #303338 8px 10px ;
+	border-radius: 2px;
+}
+
+.main .container .content .relations .title h3{
+	float: left;
+	width: 89%;
+	color: #fff;
+	line-height: 27px;
+	padding-left: 24px;
+	font-size: 14px;
+}
+.main .container .content .relations .title a{
+	float: right;
+	color: #ccc;
+	line-height: 27px;
+	padding-right: 13px;
+	font-size: 10px;
+}
+
+.main .container .content .relations .box{
+	border: 1px solid #B6B6B6;
+	border-radius: 2px;
+	margin-left: 4px;
+	margin-bottom: 6px;
+	height: 54px;
+	width: 95%;
+	flex-direction: column;
+}
+.main .container .content .relations .box p{
+	line-height: 18px;
+	font-size: 16px;
+	margin-left: 10px;
+	margin-top: 8px;
+	color: #67696D;
+	font-weight: bold;
+}
+.main .container .content .relations .box span{
+	color: #67696D;
+	font-weight: bold;
+	line-height: 21px;
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+/*尾部*/
+.footer{
+	width: 100%;
+	height: 108px;
+}
+.footer .container{
+	height: 60px;
+	background-color: #303338;
+	margin-top: 10px;
+	padding-top: 28px;
+}
+.footer .container p{
+	color: #fff;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+}
+
+/*背景颜色*/
+body{
+	background-image: url("../img/bj.png");
+}
+/*居中容器*/
+.container{
+	position: relative;
+	margin: 0 auto;
+	width: 980px;
+	
+}

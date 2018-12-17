@@ -1,0 +1,178 @@
+		.box {
+			text-align: center;
+		}
+		/*第一行*/
+		
+		.row1 {
+			width: 400px;
+			height: 100px;
+			margin: 0 auto;
+		}
+		
+		.row1_1 {
+			float: left;
+			height: 100px;
+			width: 100px;
+			background-color: #CCFFCC;
+		}
+		
+		.row1_2 {
+			float: left;
+			height: 100px;
+			width: 200px;
+			background-color: #FFCCCC;
+		}
+		
+		.row1_3 {
+			float: left;
+			height: 100px;
+			width: 100px;
+			background-color: #CCCCFF;
+		}
+		/*第二行*/
+		
+		.row2 {
+			width: 400px;
+			height: 200px;
+			margin: 0 auto;
+		}
+		
+		.row2_1 {
+			float: left;
+			width: 100px;
+			height: 200px;
+			background-color: #CCC;
+		}
+		
+		.row2_2 {
+			float: left;
+			width: 100px;
+			height: 100px;
+			background-color: #CCCCFF;
+		}
+		
+		.row2_3 {
+			float: left;
+			width: 100px;
+			height: 100px;
+			background-color: #CCCCCC;
+		}
+		
+		.row2_4 {
+			float: left;
+			width: 100px;
+			height: 100px;
+			background-color: #CCFFCC;
+		}
+		
+		.row2_5 {
+			float: left;
+			width: 100px;
+			height: 100px;
+			background-color: #FFCCCC;
+		}
+		
+		.row2_6 {
+			float: left;
+			width: 100px;
+			height: 100px;
+			background-color: #CCFFCC;
+		}
+		
+		.row2_7 {
+			float: left;
+			width: 100px;
+			height: 100px;
+			background-color: #CCCCCC;
+		}
+		/*第三行*/
+		
+		.row3 {
+			width: 400px;
+			height: 200px;
+			margin: 0 auto;
+		}
+		
+		.row3_1 {
+			float: left;
+			width: 100px;
+			height: 200px;
+			background-color: #FFCCCC;
+		}
+		
+		.row3_2 {
+			float: left;
+			width: 100px;
+			height: 200px;
+			background-color: #CCCCCC;
+		}
+		
+		.row3_3 {
+			float: left;
+			width: 200px;
+			height: 100px;
+			background-color: #FFCCCC;
+		}
+		
+		.row3_4 {
+			float: left;
+			width: 100px;
+			height: 100px;
+			background-color: #CCFFCC;
+		}
+		
+		.row3_5 {
+			float: left;
+			width: 100px;
+			height: 100px;
+			background-color: #CCCCFF;
+		}
+		/*第四行*/
+		
+		.row4 {
+			width: 600px;
+			height: 100px;
+			margin: 0 auto;
+		}
+		
+		.row4_1 {
+			float: left;
+			width: 100px;
+			height: 100px;
+			background-color: #CCFFCC;
+		}
+		
+		.row4_2 {
+			float: left;
+			width: 100px;
+			height: 100px;
+			background-color: #CCCCCC;
+		}
+		
+		.row4_3 {
+			float: left;
+			width: 100px;
+			height: 100px;
+			background-color: #FFCCCC;
+		}
+		
+		.row4_4 {
+			float: left;
+			width: 100px;
+			height: 100px;
+			background-color: #CCCCFF;
+		}
+		
+		.row4_5 {
+			float: left;
+			width: 100px;
+			height: 100px;
+			background-color: #CCFFCC;
+		}
+		
+		.row4_6 {
+			float: left;
+			width: 100px;
+			height: 100px;
+			background-color: #FFCCCC;
+		}
